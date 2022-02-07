@@ -10,6 +10,15 @@ body {
   width: 100%;
 }
 
+.btn-primary {
+  background-color: #0935E7 !important;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 750px !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

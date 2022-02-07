@@ -11,15 +11,16 @@ export class Intro extends Component {
         return (
             <div>
                 <div className="row d-flex flex-row">
-                    <div className="col-lg-4 flex-left"
+                    <div className="col-lg-5 flex-left"
                          style={{
                              backgroundImage: `url('./assets/img/intro_img.jpeg')`,
                              backgroundSize: "cover",
                              backgroundRepeat: "no-repeat",
-                             height: "500px"
+                             backgroundPosition: "center",
+                             height: "750px"
                     }}>
                     </div>
-                    <div className="px-4 col-lg-8 flex-right d-flex flex-column justify-content-between">
+                    <div className="px-4 col-lg-7 flex-right d-flex flex-column justify-content-between">
                         <div className="text-start">
                         <h1 className="mb-4">Intro</h1>
                         <p>At Blos we believe in a personal approach, also online. To fully understand the needs of your
